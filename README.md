@@ -66,7 +66,7 @@ python scripts/runBenchmarks.py
 python scripts/calculateF1Score.py
 ```
 
-## Tourbleshooting
+## Troubleshooting
 * if any script complains about jinja2 library please install it seperately using the following command:
 ```bash
 pip install jinja2
