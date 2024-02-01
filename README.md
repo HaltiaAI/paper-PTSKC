@@ -1,5 +1,5 @@
 # paper-PTSKC
-This is the official repository that contains code and access to dataset used for our paper titled `Prompt-Time Symbolic Knowledge Capture with Large Language Models`. 
+This repository contains code and access to the dataset used for our paper titled `Prompt-Time Symbolic Knowledge Capture with Large Language Models`. 
 This document is intended for researchers, developers and those who would like to build, run, and experiment with paper-PTSKC.  
 
 ## Prerequisites and Dependencies
