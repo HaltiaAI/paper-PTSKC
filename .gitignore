@@ -1,3 +1,7 @@
+.vscode
+Mistral-7B-Instruct-v0.2-4bit-mlx
+adapters_b4_l16_1000.npz
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
