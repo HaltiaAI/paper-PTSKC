@@ -20,7 +20,6 @@ if __name__ == "__main__":
     prompt_base_zero_shot = '''
     Suppose you are a "subject", "predicate" and "object" extraction agent from a given sentence. Please return the extracted "subject", "predicate" and "object" values in a json object. Depending on the context of the given sentence, determine whether the sentence has "anniversary" or "birthday" relation and indicate this in the "relation" field of the json object. Given sentence is 
     '''
-    # prompt_base_zero_shot = 'Suppose you are a "subject", "predicate" and "object" extraction agent from a given sentence. Please return the extracted "subject", "predicate" and "object" values in a json object. Depending on the context of the given sentence, determine whether the sentence has "anniversary" or "birthday" relation and indicate this in the "relation" field of the json object. Given sentence is '
 
     prompt_base_few_shot = '''
     Exclusively use the following examples to generate a single triple.
@@ -38,7 +37,6 @@ if __name__ == "__main__":
     {"subject":"My aunt and uncle", "predicate": "anniversary", "object": "July 31st"}
     Create a single triple from the following sentence, please do not provide any alternatives, and return the answer as JSON object. Sentence: 
     '''
-    # prompt_base_few_shot  = 'Exclusively use the following examples to generate a single triple.\nExample1:\nSentence: Today is my birthday.\n {"subject":"I", "predicate": "birthday", "object": "today"}\nExample2:\nSentence: My uncle was born in 1960.\n {"subject":"My uncle", "predicate": "birthday", "object": "1960"}\nExample3:\nSentence: The anniversary of my first job is on March 1st.\n {"subject":"My first job", "predicate": "anniversary", "object": "March 1st"}\nExample4:\nSentence: The anniversary of my aunt and uncle marriage falls on July 31st.\n {"subject":"My aunt and uncle", "predicate": "anniversary", "object": "July 31st"}\nCreate a single triple from the following sentence, please do not provide any alternatives, and return the answer as JSON object. Sentence: '
     prompt_base_fineTuned_shot = '[INST]'
 
     # Run zero shot prompting benchmark on model (not fine-tuned)
