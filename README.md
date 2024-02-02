@@ -73,7 +73,16 @@ pip install jinja2
 ```
 
 ## Cite
-Will be updated when available
+```
+@misc{coplu2024prompttime,
+      title={Prompt-Time Symbolic Knowledge Capture with Large Language Models}, 
+      author={Tolga Çöplü and Arto Bendiken and Andrii Skomorokhov and Eduard Bateiko and Stephen Cobb and Joshua J. Bouw},
+      year={2024},
+      eprint={2402.00414},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+```
 
 
 [PyPI]: https://pypi.org/project/mlx-lm/
