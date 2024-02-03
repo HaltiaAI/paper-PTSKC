@@ -27,7 +27,7 @@ python scripts/generateTestTrainValid.py
 ```
 
 Details about the dataset generation are as follows: 
-* `data/base.jsonl` is the fundemental dataset file that holds 1600 user-prompt and prompt response pairs.
+* `data/base.jsonl` is the fundamental dataset file that holds 1600 user-prompt and prompt response pairs.
 * `generateTestTrainValid.py` script parses the base file and generates the required files for (Q)LoRA and performance evaluation. Please note that the generated output format is compatibale with `Mistral-7B-Instruct` model. Modifications might be required for different instruction formats.
 * The number of lines that each output file will contain can be configured from `generateTestTrainValid.py`.
 * All generated files are written under `data` directory.
