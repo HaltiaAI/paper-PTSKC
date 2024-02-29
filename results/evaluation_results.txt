@@ -1,0 +1,47 @@
+Results for results/zeroShot.jsonl:
+  relation_matching:
+    TP: 163
+    FP: 0
+    FN: 37
+    PRE: 0.815
+    REC: 1.0
+    F1: 0.8980716253443526
+  triple_matching:
+    TP: 73
+    FP: 90
+    FN: 37
+    PRE: 0.6636363636363637
+    REC: 0.44785276073619634
+    F1: 0.5347985347985349
+
+Results for results/fewShot.jsonl:
+  relation_matching:
+    TP: 98
+    FP: 0
+    FN: 102
+    PRE: 0.49
+    REC: 1.0
+    F1: 0.6577181208053691
+  triple_matching:
+    TP: 64
+    FP: 34
+    FN: 102
+    PRE: 0.3855421686746988
+    REC: 0.6530612244897959
+    F1: 0.48484848484848486
+
+Results for results/fineTuned.jsonl:
+  relation_matching:
+    TP: 200
+    FP: 0
+    FN: 0
+    PRE: 1.0
+    REC: 1.0
+    F1: 1.0
+  triple_matching:
+    TP: 192
+    FP: 8
+    FN: 0
+    PRE: 1.0
+    REC: 0.96
+    F1: 0.9795918367346939
